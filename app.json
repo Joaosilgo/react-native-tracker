@@ -1,14 +1,18 @@
 {
+  "name": "react-native-tracker",
+  "displayName": "react-native-tracker",
   "expo": {
     "name": "react-native-tracker",
     "slug": "react-native-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/react-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/react-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#dddddd",
+      "primaryColor": "#dddddd",
+      "privacy": "public"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,8 +27,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "config": {
+        "googleMaps": {
+           "apiKey": "AIzaSyAFsKfOkAJ7dMMnx_oApZGWRlorh3w8ddI"
+        }
+     }
     },
+    
     "web": {
       "favicon": "./assets/favicon.png"
     }
